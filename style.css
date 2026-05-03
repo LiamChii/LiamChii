@@ -16,6 +16,7 @@ img{
     color: white;
     text-decoration: none;
     text-align: center;
+    overflow: hidden;
 }
 
 h1{
@@ -45,11 +46,13 @@ h2{
     text-decoration: none;
     border: 2px solid white;
     border-radius: 5%;
+    overflow: hidden;
 }
 
 .project-image{
     border: 2px solid white;
     border-radius: 15%;
+    overflow: hidden;
 }
 
 .game-container{
@@ -57,4 +60,5 @@ h2{
     justify-content: center;
     grid-template-columns: repeat(auto-fit, 300px);
     gap: 20px;
+    overflow: hidden;
 }
